@@ -20,7 +20,7 @@ function theTokenGenerator3000() {
       hostname: "customerappapi.yurticikargo.com",
       path: "/KOPSRestServices/rest/customermobile/auth/session",
       headers: {
-        "Yk-App-Token": "Android411",
+        "Yk-App-Token": "Android519",
         "Yk-Mobile-Device-Id": "(._.)", //thx yurtici
         "Yk-Mobile-Os": "Android",
         "Accept-Language": "tr",
@@ -58,7 +58,7 @@ router.get("/:barcode", async (req, res) => {
 
     const options = {
       headers: {
-        "Yk-App-Token": "Android411",
+        "Yk-App-Token": "Android519",
         "Yk-Mobile-Device-Id": "._.", // hehe
         "Yk-Mobile-Os": "Android",
         "Accept-Language": "tr",
